@@ -1,0 +1,5 @@
+num = input("Введите 2 числа через пробел: ").strip()
+parts = num.split()
+a = int(parts[0])
+b = int(parts[1])
+print(f"{a + b:.1f}")
